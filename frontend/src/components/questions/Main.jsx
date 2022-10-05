@@ -68,6 +68,7 @@ export default function Main() {
         lastModified={item.last_activity_date}
         view_count={item.view_count}
         answers_count={item.answer_count}
+        link = {item.link}
       />
     );
   }
@@ -91,8 +92,10 @@ export default function Main() {
           month
         </button>
       </div>
-      {responseData ? responseData.map(createCard) : null}
-      {console.log(responseData)}
+      <div className="midpanel">
+        {responseData ? responseData.map(createCard) : null}
+        {console.log(responseData)}
+      </div>
     </div>
   );
 }

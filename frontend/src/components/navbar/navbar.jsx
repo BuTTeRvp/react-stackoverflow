@@ -10,7 +10,7 @@ export default function Navbar({toggelSidebar}){
   }
 
   return(
-    <div className={sidebar?'navbar navbar-shift': "navbar"} style={{display: "flex", flexDirection: "column", width: "100%"}}>
+    <div className={sidebar?'navbar navbar-shift': "navbar"} style={{display: "flex", flexDirection: "column", width: "70%"}}>
       <div style={{display: "flex"}}>
         <div className='burger' onClick={toggelSideBar}>
         <span>

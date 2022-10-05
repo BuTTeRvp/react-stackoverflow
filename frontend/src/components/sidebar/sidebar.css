@@ -4,7 +4,7 @@
   color: #d6ccc2;
   top: 0;
   left: 0;
-  height: calc(100vh);
+  height: 100vh;
   max-width: 300px;
   box-shadow: 4px 0 4px rgb(72, 69, 69);
   transform: translateX(-100%);

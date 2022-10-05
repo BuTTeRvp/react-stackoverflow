@@ -1,29 +1,30 @@
-.cardcontainer{
+.cardcontainer {
   gap: 5px;
 }
 .card {
-  border-radius: 25px;
-  position: relative;
-  padding: 25px 15px;
-  background-color: #81ecec;
-  margin: 50px 0;
-  height: 200px;
+  display: flex;
+  border-right: 0;
+  border-left: 0;
+  background-color: inherit;
+  margin: auto;
+  height: 150px;
+  width: 70%;
   box-shadow: 0 2px 5px #ccc;
-  text-align: left;
+  text-align: center;
+  color: rgb(51, 49, 49);
+  align-items: center;
 }
 
-.title{
+.title {
   color: blue;
 }
 
-.tag{
+.tag {
   position: relative;
   color: black;
   font-size: small;
-  
 }
-.tag-container{
-  
+.tag-container {
   display: flex;
   gap: 2px;
 }

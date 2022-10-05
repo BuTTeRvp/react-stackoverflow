@@ -1,8 +1,7 @@
 import Navbar from "./components/navbar/navbar";
-import Sidebar from "./components/sidebar/sidebar";
 import "./App.css"
 import Footer from "./components/footer/footer";
-import Left from "./components/left/left";
+import Rightpanel from "./components/left/rightpanel";
 
 
 
@@ -11,7 +10,7 @@ function App() {
     <div className="App">
       <div style={{display:"flex"}}>
         <Navbar/>
-        <Left/>
+        <Rightpanel/>
       </div>
       <Footer/>
       
