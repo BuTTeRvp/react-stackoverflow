@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #edede9;
+  color: #d6ccc2;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  width: 70%;
+}
+.navbar-shift {
+  margin-left: 280px;
+  transition: 0.4s;
+}
