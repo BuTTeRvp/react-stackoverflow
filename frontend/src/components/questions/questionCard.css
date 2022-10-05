@@ -1,0 +1,29 @@
+.cardcontainer{
+  gap: 5px;
+}
+.card {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #81ecec;
+  margin: 50px 0;
+  height: 200px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+}
+
+.title{
+  color: blue;
+}
+
+.tag{
+  position: relative;
+  color: black;
+  font-size: small;
+  
+}
+.tag-container{
+  
+  display: flex;
+  gap: 2px;
+}
